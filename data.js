@@ -1,7 +1,7 @@
 var firebaseConfig = {
     apiKey: "AIzaSyBPiDrV_hD-d8qTi5m_S5nEjmQ7kMhwkzs",
     authDomain: "need-electronics.firebaseapp.com",
-    databaseURL: "https://need-electronics-default-rtdb.firebaseio.com",
+    databaseURL: "https://need-electronics-ddcf2-default-rtdb.firebaseio.com/",
     projectId: "need-electronics",
     storageBucket: "need-electronics.appspot.com",
     messagingSenderId: "450397395955",
