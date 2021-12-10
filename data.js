@@ -1,12 +1,13 @@
 var firebaseConfig = {
-    apiKey: "AIzaSyDPA2ErRa_cECEixKP5z_fRhcJH-NmQU-A",
-    authDomain: "signuppage-61d08.firebaseapp.com",
-    databaseURL: "https://signuppage-61d08-default-rtdb.firebaseio.com",
-    projectId: "signuppage-61d08",
-    storageBucket: "signuppage-61d08.appspot.com",
-    messagingSenderId: "375117672256",
-    appId: "1:375117672256:web:27facf0382fdfac51cd4a5",
-    measurementId: "G-BE09K4JP2Y"
+    apiKey: "AIzaSyBPiDrV_hD-d8qTi5m_S5nEjmQ7kMhwkzs",
+    authDomain: "need-electronics.firebaseapp.com",
+    databaseURL: "https://need-electronics-default-rtdb.firebaseio.com",
+    projectId: "need-electronics",
+    storageBucket: "need-electronics.appspot.com",
+    messagingSenderId: "450397395955",
+    appId: "1:450397395955:web:44cf4c610a95ef0bec1086",
+    measurementId: "${config.measurementId}"
+
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
