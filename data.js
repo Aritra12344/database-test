@@ -48,3 +48,17 @@ document.getElementById('form').addEventListener('submit', (e) => {
 function  getId(id){
     return document.getElementById(id).value;
 }
+
+function get() {
+  var username = document.getElementById('username').value
+
+  var user_ref = database.ref('users/' + username)
+  user_ref.on('value', function(snapshot) {
+    var data = snapshot.val()
+
+    alert(data.email)
+
+  })
+
+}
+
