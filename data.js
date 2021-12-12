@@ -29,7 +29,12 @@ const auth = firebase.auth();
 function SignIn(){
     var email = document.getElementById('eemail').value;
     var password = document.getElementById('lpassword').value;
-    const promise = auth.signInWithEmailAndPassword(email,password);
+   var city = document.getElementById('city').value;
+    var zip = document.getElementById('zip').value;
+    var state = document.getElementById('state').value;
+    var district = document.getElementById('district').value;
+  
+ const promise = auth.signInWithEmailAndPassword(email,password);
     promise.catch( e => alert(e.msg));
     window.open("https://www.google.com","_self");
 }
@@ -38,6 +43,10 @@ document.getElementById('form').addEventListener('submit', (e) => {
     var userInfo = datab.push();
     userInfo.set({
         name: getId('fname'),
+       City: getId('city'),
+    State: getId('state'),
+    Disrict: getId('district'),
+    Zip: getId('zip'),
         email : getId('eemail'),
         password : getId('lpassword')
     });
