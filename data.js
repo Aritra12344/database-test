@@ -6,7 +6,7 @@ var firebaseConfig = {
     storageBucket: "need-electronics.appspot.com",
     messagingSenderId: "450397395955",
     appId: "1:450397395955:web:44cf4c610a95ef0bec1086",
-    measurementId: "${config.measurementId}"
+    measurementId: "G-M7R2H7MZ0B"
 
   };
   // Initialize Firebase
